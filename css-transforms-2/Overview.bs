@@ -848,6 +848,8 @@ Computed value: specified keyword
 Animation type: discrete
 </pre>
 
+A value of ''backface-visibility: hidden'' on an element that also participates in a <a>3D rendering context</a> establishes a stacking context and a [=containing block for all descendants=], just like the 'transform' property does.
+
 The visibility of an element with ''backface-visibility: hidden'' is determined as follows:
 
 1. Compute the element's <a>accumulated 3D transformation matrix</a>.
